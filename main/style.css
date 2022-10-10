@@ -1,0 +1,89 @@
+header {
+    text-align: left;
+
+}
+
+
+body {
+    background-color: #333;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+body.background {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Flegismusic.com%2Fbackground-music-theatre-plays%2F&psig=AOvVaw3C5PtqAUDj7hQtz2Kyiw78&ust=1665495180937000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLi3pJbj1foCFQAAAAAdAAAAABAG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.img-show {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    }
+
+
+.flexbox-container {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.flexbox-item {
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+    border: 10 px solid #333;
+    background-color: rgb(59, 34, 34);
+}
+
+.flexbox-item-1 {
+    min-height: 300px;
+    padding: 10px;
+
+}
+
+.flexbox-item-2 {
+    min-height: 100px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.flexbox-item-4 {
+    box-shadow: inset;
+    min-height: 300px;
+    padding: 10px;
+
+}
+
+.grid-container
+{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: left;
+        align-content: flex-start;
+}
+
+.CAST {
+    text-align: right;
+    color: red;
+}
+
